@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100&display=swap');
+body{
+
+}
+header{
+    background: #1F4990;
+}
+.logo{
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    /* color: #e6e1e1;  */
+}
+nav{
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.sobre-info{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+.sobre-logo{
+    display: flex;
+    justify-content: center;
+}

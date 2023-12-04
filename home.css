@@ -16,13 +16,30 @@ nav{
     font-size: 1.3rem;
     font-weight: 500;
 }
+.slide{
+    height: 500px;
+    width: 100%;
+    background: url(imgHome/imgSlideHeader/ft.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 500px) {
+    .slide{
+        background: url(imgHome/imgSlideHeader/ft\ -\ Copia.jpg);
+        background-position: center left;
+        background-repeat: no-repeat;
+    }
+}
 .sobre-info{
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-
 }
-.sobre-logo{
+.sobre-logo2{
     display: flex;
     justify-content: center;
+}
+#servicos{
+    height: 800px;
 }

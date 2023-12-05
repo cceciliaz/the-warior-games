@@ -41,5 +41,21 @@ nav{
     justify-content: center;
 }
 #servicos{
-    height: 800px;
+    height: 900px;
+    background: #1F4990;
+    /* color: #fff; */
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.container-cards{
+    height: 700px;
+    background: #fff;
+}
+.container-cards-item{
+    height: 100%;
+}
+.h-100 img{
+    height: 210px;
+    width: 100%;
 }
